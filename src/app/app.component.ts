@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as moment from 'moment';
 
 @Component({
   selector: 'app-root',
@@ -7,11 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bytebank';
-  transferencia: any
+  transferencias: any[] = [];
 
   transferir($event){
     console.log($event);
-    this.transferencia = $event;
+    const transferencia = {...$event, data: moment().format('DD/MM/YYYY hh:mm:ss')}
+    this.transferencias.push(transferencia);
   }
 
 }
