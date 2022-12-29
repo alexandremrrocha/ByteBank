@@ -22,7 +22,7 @@ Projeto para o aprendizado do framework do Angular, projeto em andamento
 - Instale as dependências
 
 ```bash
-  yarn
+  npm install
 ```
 
 Inicie o servidor
