@@ -1,7 +1,7 @@
 
 # Byte Bank
 
-Projeto para o aprendizado do framework do Angular, projeto em andamento
+Tela de transferencia bancaria com a demonstração do extrato a cada transferencia executada
 
 ## Stack utilizada
 
